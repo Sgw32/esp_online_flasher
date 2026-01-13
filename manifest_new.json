@@ -1,0 +1,12 @@
+{
+  "name": "current stable",
+  "version": "2.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+	  	{ "path": "firmware/new/wic64_new.bin", "offset": 0 }
+        ]
+    }
+  ]
+}
